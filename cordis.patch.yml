@@ -1,0 +1,8 @@
+# Replace the web profile's adaptive picker with this Windows backend and
+# mount the official native directory-picker browser surface beside it.
+- id: directory-picker
+  name: deepseek-harness-win32-picker
+
+- insert:
+    - id: directory-picker-win32-surface
+      name: '@deepseek-ai/dsh-client-ui-directory-picker-native'
